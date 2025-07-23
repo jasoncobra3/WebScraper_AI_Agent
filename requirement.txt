@@ -1,0 +1,15 @@
+gradio
+asyncio
+crawl4ai
+urllib3
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-groq
+huggingface-hub
+sentence-transformers
+faiss-cpu
+python-dotenv
+aiohttp
+re

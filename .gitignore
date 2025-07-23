@@ -1,0 +1,32 @@
+# Ignore virtual environments
+crawler/
+.env/
+.env
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FAISS index (if saved)
+*.faiss
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Python egg info
+*.egg-info/
+dist/
+build/
