@@ -1,6 +1,7 @@
 # 🕸️ WebScraper AI Agent
 
-An AI-powered web scraper that extracts and processes website data using LangChain, HuggingFace embeddings, FAISS, and GROQ LLMs. Built with Gradio for a simple UI interface.
+
+AI-powered web scraper that extracts and processes website content using LangChain, HuggingFace Embeddings, FAISS, and GROQ LLMs. It features a simple Gradio UI and allows users to download extracted text and ask intelligent questions from web data.
 
 ---
 
@@ -8,6 +9,7 @@ An AI-powered web scraper that extracts and processes website data using LangCha
 
 - 🌐 Crawl websites asynchronously with `Crawl4AI`
 - 📄 Extract and chunk website text data
+- 🧾 Download extracted content as a `.txt` file
 - 🤖 Embed content using `HuggingFaceEmbeddings`
 - 🔍 Perform semantic search using `FAISS`
 - 💬 Answer questions using GROQ LLM (via LangChain)
@@ -30,23 +32,37 @@ An AI-powered web scraper that extracts and processes website data using LangCha
 
 ## 📦 Installation
 
-```bash
-git clone https://github.com/jasoncobra3/WebScraper_AI_Agent.git
-cd WebScraper_AI_Agent
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/jasoncobra3/WebScraper_AI_Agent.git
+   cd WebScraper_AI_Agent
+
+2. **Create Virtual Environment**
+   ```bash
+    python -m venv venv
+   
+3. **Activate the Virtual Environment**
+   ```bash
+    # Windows:
+    venv\Scripts\activate
+    # macOS/Linux:
+    venv/bin/activate
+
+4. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
 ---
 ## 🔐 Setup
-1. Create a .env file
+1. **Create a `.env` file in root folder with**
    ```env
     GROQ_API_KEY=your_groq_api_key_here
    ```
-2.  Replace the `.env.`example if needed.
+
 ---
 
 ##  🧪Run the App
+   **Run the Script in Terminal**
    ```bash
      python app.py
    ```
@@ -60,7 +76,7 @@ pip install -r requirements.txt
 ├── .env
 ├── .gitignore
 ├── README.md
-└── crawl4ai/  # Library or module
+└── Assets/
 ```
 ---
 ## 📸 Screenshots
