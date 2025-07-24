@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 | 🌐 Scraping Website|Semantic Search 📄 |
 |---------------|------------------|
-| ![Scrape](Assets/screenshot1.png) | ![Semantic_Search](Assets/screenshot2.png)|
+| ![Scraper](Assets/Screenshot1.png) | ![Semantic_Search](Assets/screenshot2.png)|
 
 ---
 
