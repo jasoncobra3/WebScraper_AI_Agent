@@ -61,7 +61,7 @@ An AI-powered web scraper that extracts and processes website content using Craw
 
 ---
 
-##  🧪Run the App
+##  🚀Run the App
    **Run the Script in Terminal**
    ```bash
      python app.py
