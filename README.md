@@ -1,7 +1,7 @@
 # 🕸️ WebScraper AI Agent
 
 
-AI-powered web scraper that extracts and processes website content using LangChain, HuggingFace Embeddings, FAISS, and GROQ LLMs. It features a simple Gradio UI and allows users to download extracted text and ask intelligent questions from web data.
+AI-powered web scraper that extracts and processes website content using Crawl4AI, LangChain, HuggingFace Embeddings, FAISS, and GROQ LLMs. It features a simple Gradio UI and allows users to download extracted text and ask intelligent questions from web data.
 
 ---
 
